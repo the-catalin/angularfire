@@ -18,7 +18,7 @@
     "rewrite_npm_package": "node tools/rewrite-published-package.js",
     "e2e_test": "webdriver-manager update && npm run build_e2e && protractor",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1",
-    "prepare": "npm run build_npm"
+    "prepare": "npm run build"
   },
   "keywords": [
     "angular2",
